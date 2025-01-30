@@ -1,0 +1,11 @@
+      ! ****************************************************************
+      ! user inputs
+      ! ****************************************************************
+      ! gray mix will take the maximum between "maxhbbl" and
+      ! height above the bottom equal to grid points "np"
+
+      ! grid points above bottom to enact gray mix bottom 
+      ! boundary layer
+      integer,parameter :: np = 1
+      ! max height to implement gray mix in meters
+      real,parameter :: maxhbbl = 1
